@@ -12,10 +12,10 @@ def minimal_task():
 def saudacao_personalizada():
     print("Iniciando tarefa de saudação...")
     nome_usuario = input("Por favor, digite seu nome: ")
-    print(f"Olá, {nome_usuario}!Bem vindo ao mundo Robocorp.")
+    print("Olá, {nome_usuario}!Bem vindo ao mundo Robocorp.")
     print("Tarefa de saudação finalizada com sucesso")
 
 @task
-def main()
+def main():
     minimal_task()
     saudacao_personalizada()
